@@ -7,10 +7,10 @@ Set up a password-less authentication from user thor on jump host to all app ser
 On thor@jump_host:
 
 * 1  ssh-keygen
-2  ssh-copy-id -i ~/.ssh/id_rsa.pub tony@stapp01
-3  ssh tony@stapp01
-4  ssh-copy-id -i ~/.ssh/id_rsa.pub steve@stapp02
-5  ssh steve@stapp02
-6  ssh-copy-id -i ~/.ssh/id_rsa.pub banner@stapp03
-7  ssh banner@stapp03
+* 2  ssh-copy-id -i ~/.ssh/id_rsa.pub tony@stapp01
+* 3  ssh tony@stapp01
+* 4  ssh-copy-id -i ~/.ssh/id_rsa.pub steve@stapp02
+* 5  ssh steve@stapp02
+* 6  ssh-copy-id -i ~/.ssh/id_rsa.pub banner@stapp03
+* 7  ssh banner@stapp03
   
